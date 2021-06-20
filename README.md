@@ -4,7 +4,7 @@ The project contains two main applications:
 * PasswordStrengthWebAPI - Web API to calculate password strength and fetch how many times it was pawned
 * CAppPasswordStrength - A console application where the user enters a password and finds its strength and the number of times the password has appeared in data breaches by interacting with PasswordStrengthWebAPI.
 
-The repository also contains the unit test project inside CAppPasswordStrength, which is called CAppPasswordStrength.Tests to replicate some scenarios when using the console application.
+The repository also contains the unit test project inside CAppPasswordStrength, which is called CAppPasswordStrength.Tests.
 
 ## Technology
 * .NET Framework 4.6.1
