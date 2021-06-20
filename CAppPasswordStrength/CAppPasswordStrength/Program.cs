@@ -57,10 +57,10 @@ namespace CAppPasswordStrength
                     {
                         breachInfo = BreachAPIHelper.GetBreachInfo(password).Result;
                     }
-                    catch (Exception)
+                    catch (System.AggregateException)
                     {
 
-                        throw;
+                        breachInfo = "Invalid";
                     }
                     finally
                     {
